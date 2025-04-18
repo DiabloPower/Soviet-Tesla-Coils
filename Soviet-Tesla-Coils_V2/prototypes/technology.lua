@@ -222,14 +222,14 @@ data:extend({
     {
       type = "ammo-damage",
       ammo_category = "tesla-electric",
-      modifier = 0.9
+      modifier = 0.7
     }
     
   },
   prerequisites = {"Tesla-coil-6", "space-science-pack"},
   unit =
   {
-    count_formula = "2^(14-7)*8",
+    count_formula = "2^(L-7)*1024",
     ingredients =
     {
       {"automation-science-pack", 1},
@@ -371,7 +371,7 @@ data:extend({
     {
       type = "gun-speed",
       ammo_category = "tesla-electric",
-      modifier = 0.4
+      modifier = 0.5
     }
   },
   prerequisites = {"Tesla-coil-Shooting-Speed-4"},
@@ -399,13 +399,8 @@ data:extend({
   effects =
   {
     {
-      type = "ammo-damage",
+      type = "gun-speed",
       ammo_category = "tesla-electric",
-      modifier = 0.7
-    },
-    {
-      type = "ammo-damage",
-      ammo_category = "beam",
       modifier = 0.6
     }
   },
@@ -434,20 +429,15 @@ data:extend({
   effects =
   {
     {
-      type = "ammo-damage",
+      type = "gun-speed",
       ammo_category = "tesla-electric",
       modifier = 0.10
-    },
-    {
-      type = "ammo-damage",
-      ammo_category = "beam",
-      modifier = 0.6
     }
   },
   prerequisites = {"Tesla-coil-Shooting-Speed-6", "space-science-pack"},
   unit =
   {
-    count_formula = "2^(14-7)*8",
+    count_formula = "2^(L-7)*1024",
     ingredients =
     {
       {"automation-science-pack", 1},
