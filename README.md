@@ -1,7 +1,7 @@
 # Soviet Tesla Coils - Factorio 2.0 Adaptation
 
 ## Overview
-The **Soviet Tesla Coils** mod introduces the powerful Tesla Coils inspired by iconic Soviet technology into Factorio! Originally developed by **Gouitsu** for Factorio 1.1, [this](https://mods.factorio.com/mod/Soviet-Tesla-Coils) mod has now been **forged** and updated to Factorio 2.0 by **DiabloPower**.
+The **Soviet Tesla Coils** mod introduces the powerful Tesla Coils inspired by iconic Soviet technology from the Command & Conquer Red Alert Universe into Factorio! Originally developed by **Gouitsu** for Factorio 1.1, [this](https://mods.factorio.com/mod/Soviet-Tesla-Coils) mod has now been **forged** and updated to Factorio 2.0 by **DiabloPower**.
 
 ### What's New?
 - **Updated for Factorio 2.0**:
