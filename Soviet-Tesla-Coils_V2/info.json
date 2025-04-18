@@ -1,0 +1,12 @@
+{
+	"name": "Soviet-Tesla-Coils_V2",
+	"version": "2.0.0",
+	"title": "Soviet-Tesla-Coils",
+	"author": "DiabloPower, originaly: Gouitsu, graphics by SacredAnarchy",
+	"dependencies": [ 
+		"base >= 2.0",
+		"? space-age >= 2.0",
+    	"? quality >= 2.0" ],
+	"description": "Replica Soviet Tesla Coils from Command and Conquer Red Alert 2. Portet from Factorio 1.1.0 to 2.0 by DiabloPower",
+	"factorio_version": "2.0"
+}

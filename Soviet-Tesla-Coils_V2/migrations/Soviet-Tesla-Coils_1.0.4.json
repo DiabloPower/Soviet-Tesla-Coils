@@ -1,0 +1,12 @@
+{
+    "technology":
+    [
+        ["Tesla-coil-I", "Tesla-coil-1"],
+        ["Tesla-coil-II", "Tesla-coil-2"],
+        ["Tesla-coil-III", "Tesla-coil-3"],
+        ["Tesla-coil-IV", "Tesla-coil-4"],
+        ["Tesla-coil-V", "Tesla-coil-5"],
+        ["Tesla-coil-VI", "Tesla-coil-6"],
+        ["Tesla-coil-VII", "Tesla-coil-7"]
+    ]
+}
