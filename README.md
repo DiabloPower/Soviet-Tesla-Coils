@@ -39,6 +39,8 @@ Take a look at what the Soviet Tesla Coils bring to your gameplay:
 A big thank you to [SacredAnarchy](https://mods.factorio.com/user/Sacredanarchy) for the original textures of the mod!  
 And to [Gouitsu](https://mods.factorio.com/user/Gouitsu) for the original mod!
 
+Thanks for the Chinese translation by [Houraiji-Kyuusyou](https://github.com/Houraiji-Kyuusyou)
+
 ## Compatibility
 - **Factorio Version**: 2.0
 - **Dependencies**:
