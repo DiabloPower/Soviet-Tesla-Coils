@@ -1,5 +1,9 @@
 Soviet Tesla Coils
 ---------------------------------------------------------------------------------------------------
+Version: 2.0.3
+  Changes:
+    - German translation added
+---------------------------------------------------------------------------------------------------
 Version: 2.0.2
   Changes:
     - added Chinese translation by Houraiji-Kyuusyou
