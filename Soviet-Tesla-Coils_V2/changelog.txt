@@ -1,5 +1,9 @@
 Soviet Tesla Coils
 ---------------------------------------------------------------------------------------------------
+Version: 2.0.1t
+  Changes:
+    - added Chinese translation by Houraiji-Kyuusyou
+---------------------------------------------------------------------------------------------------
 Version: 2.0.1
   Changes:
     - some fixes to the Techtree (>Level 6 shoting speed upgrade did Damage instead of speed)
