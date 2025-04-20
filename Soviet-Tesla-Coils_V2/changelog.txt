@@ -1,8 +1,15 @@
-Soviet Tesla Coils
+---------------------------------------------------------------------------------------------------
+Version: 2.0.4
+  Changes:
+    - added Turret animation
+    - added fireing animation
+    - added cooldown animation
+    - added new beam animation (SD & HD)
+    - added missing HD animations
 ---------------------------------------------------------------------------------------------------
 Version: 2.0.3
   Changes:
-    - German translation added
+    - german translation added
 ---------------------------------------------------------------------------------------------------
 Version: 2.0.2
   Changes:
@@ -22,42 +29,39 @@ Version 1.0.7
              -Nothing new just and animation tweak sorry for any inconvenience.
 ---------------------------------------------------------------------------------------------------
 Version 1.0.6
-      changes:
-             -New Better Graphics, You can now change the color like stock turrets.
+  changes:
+    -New Better Graphics, You can now change the color like stock turrets.
 ---------------------------------------------------------------------------------------------------
 Version 1.0.5
-      changes:
-             -Fixed Infinite research ammount was 15 now 1024.
-             -Descriptions added to technology bonusess.
-             -Removed black background on the icons.
-             -Added speed research.
+  changes:
+    -Fixed Infinite research ammount was 15 now 1024.
+    -Descriptions added to technology bonusess.
+    -Removed black background on the icons.
+    -Added speed research.
 ---------------------------------------------------------------------------------------------------
 Version 1.0.4
-      changes:
-             -Balancing changes have been made thank you Alucard for helping playtest.
-             -Collision box/select box reduced.
-             -Recipie change 2 x accumulators are now required to craft a Tesla.
-             -Speed is now also upgraded with the damage research as a secondary effect.
-             -Slight damage increase was 20 now 26.2 range still 38.
+  changes:
+    -Balancing changes have been made thank you Alucard for helping playtest.
+    -Collision box/select box reduced.
+    -Recipie change 2 x accumulators are now required to craft a Tesla.
+    -Speed is now also upgraded with the damage research as a secondary effect.
+    -Slight damage increase was 20 now 26.2 range still 38.
 ---------------------------------------------------------------------------------------------------
 Version 1.0.3
-      changes:
-             -Updated descriptions for technology tree.
-             -Enjoy!.
+  changes:
+    -Updated descriptions for technology tree.
+    -Enjoy!.
 ---------------------------------------------------------------------------------------------------
 Version 1.0.2
-      changes:
-             -Fixed crash caused by technology obelisks of light dependency accident.
-             -Enjoy!.
+  changes:
+    -Fixed crash caused by technology obelisks of light dependency accident.
+    -Enjoy!.
 ---------------------------------------------------------------------------------------------------
-
 Version 1.0.1
-      changes:
-             -I have spent time working out the way the game animates the electric beam and produced one that is acceptable.
-             -The new beam has research able to increase its damage.
+  changes:
+    -I have spent time working out the way the game animates the electric beam and produced one that is acceptable.
+    -The new beam has research able to increase its damage.
 ---------------------------------------------------------------------------------------------------
-
 Version 1.0.0
-      changes:
-             -none, initial release.
-
+  changes:
+    -none, initial release.

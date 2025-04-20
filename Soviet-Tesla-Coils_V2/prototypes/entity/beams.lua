@@ -64,7 +64,19 @@ function make_tesla_beam(beam_table, blend_mode, beam_flags, beam_tint, light_ti
       height = 39,
       frame_count = 16,
       tint = beam_tint,
-      blend_mode = blend_mode or beam_blend_mode
+      blend_mode = blend_mode or beam_blend_mode,
+      hr_version =
+      {
+        filename = path .. "/graphics/entity/beam/hr-beam-head.png",
+        flags = beam_flags or beam_non_light_flags,
+        line_length = 16,
+        width = 64,
+        height = 78,
+        frame_count = 16,
+        tint = beam_tint,
+        blend_mode = blend_mode or beam_blend_mode,
+        scale = 0.5
+      }
     }
 
     beam_table.tail =
@@ -76,76 +88,43 @@ function make_tesla_beam(beam_table, blend_mode, beam_flags, beam_tint, light_ti
       height = 39,
       frame_count = 16,
       tint = beam_tint,
-      blend_mode = blend_mode or beam_blend_mode
+      blend_mode = blend_mode or beam_blend_mode,
+      hr_version =
+      {
+        filename = path .. "/graphics/entity/beam/hr-beam-tail.png",
+        flags = beam_flags or beam_non_light_flags,
+        line_length = 16,
+        width = 64,
+        height = 78,
+        frame_count = 16,
+        tint = beam_tint,
+        blend_mode = blend_mode or beam_blend_mode,
+        scale = 0.5
+      }
     }
 
     beam_table.body =
     {
       {
-        filename = path .. "/graphics/entity/beam/beam-body-1.png",
+        filename = path .. "/graphics/entity/beam/beam-body.png",
         flags = beam_flags or beam_non_light_flags,
-        line_length = 16,
         width = 32,
         height = 39,
+        line_length = 16,
         frame_count = 16,
         tint = beam_tint,
         scale = 2.0,
-        blend_mode = blend_mode or beam_blend_mode
-      },
-      {
-        filename = path .. "/graphics/entity/beam/beam-body-2.png",
-        flags = beam_flags or beam_non_light_flags,
-        line_length = 16,
-        width = 32,
-        height = 39,
-        frame_count = 16,
-        tint = beam_tint,
-        scale = 2.0,
-        blend_mode = blend_mode or beam_blend_mode
-      },
-      {
-        filename = path .. "/graphics/entity/beam/beam-body-3.png",
-        flags = beam_flags or beam_non_light_flags,
-        line_length = 16,
-        width = 32,
-        height = 39,
-        frame_count = 16,
-        tint = beam_tint,
-        scale = 2.0,
-        blend_mode = blend_mode or beam_blend_mode
-      },
-      {
-        filename = path .. "/graphics/entity/beam/beam-body-4.png",
-        flags = beam_flags or beam_non_light_flags,
-        line_length = 16,
-        width = 32,
-        height = 39,
-        frame_count = 16,
-        tint = beam_tint,
-        scale = 2.0,
-        blend_mode = blend_mode or beam_blend_mode
-      },
-      {
-        filename = path .. "/graphics/entity/beam/beam-body-5.png",
-        flags = beam_flags or beam_non_light_flags,
-        line_length = 16,
-        width = 32,
-        height = 39,
-        frame_count = 16,
-        tint = beam_tint,
-        scale = 2.0,
-        blend_mode = blend_mode or beam_blend_mode
-      },
-      {
-        filename = path .. "/graphics/entity/beam/beam-body-6.png",
-        flags = beam_flags or beam_non_light_flags,
-        line_length = 16,
-        width = 32,
-        height = 39,
-        frame_count = 16,
-        tint = beam_tint,
-        scale = 2.0,
-        blend_mode = blend_mode or beam_blend_mode
+        blend_mode = blend_mode or beam_blend_mode,
+        hr_version = {
+          filename = path .. "/graphics/entity/beam/hr-beam-body.png",
+          flags = beam_non_light_flags,
+          width = 64,
+          height = 78,
+          line_length = 16,
+          frame_count = 16,
+          blend_mode = beam_blend_mode,
+          scale = 2.0
+        }
       }
     }
 
@@ -300,124 +279,25 @@ function make_beam(sound)
           layers = 
           {
             {
-              filename = path .. "/graphics/entity/beam/beam-body-1.png",
+              filename = path .. "/graphics/entity/beam/beam-body.png",
               flags = beam_non_light_flags,
-              line_length = 16,
               width = 32,
               height = 39,
-              frame_count = 16,
-              blend_mode = beam_blend_mode,
-              hr_version = {
-                filename = path .. "/graphics/entity/beam/hr-beam-body-1.png",
-                flags = beam_non_light_flags,
-                line_length = 16,
-                width = 64,
-                height = 78,
-                frame_count = 16,
-                blend_mode = beam_blend_mode,
-                scale = 0.5
-              }
-            },
-            {
-              filename = path .. "/graphics/entity/beam/beam-body-2.png",
-              flags = beam_non_light_flags,
               line_length = 16,
-              width = 32,
-              height = 39,
               frame_count = 16,
               blend_mode = beam_blend_mode,
               scale = 2.0,
               hr_version = {
-                filename = path .. "/graphics/entity/beam/hr-beam-body-2.png",
+                filename = path .. "/graphics/entity/beam/hr-beam-body.png",
                 flags = beam_non_light_flags,
-                line_length = 16,
                 width = 64,
                 height = 78,
-                frame_count = 16,
-                blend_mode = beam_blend_mode,
-                scale = 1.0
-              }
-            },
-            {
-              filename = path .. "/graphics/entity/beam/beam-body-3.png",
-              flags = beam_non_light_flags,
-              line_length = 16,
-              width = 32,
-              height = 39,
-              frame_count = 16,
-              blend_mode = beam_blend_mode,
-              scale = 2.0,
-              hr_version = {
-                filename = path .. "/graphics/entity/beam/hr-beam-body-3.png",
-                flags = beam_non_light_flags,
                 line_length = 16,
-                width = 64,
-                height = 78,
                 frame_count = 16,
                 blend_mode = beam_blend_mode,
-                scale = 1.0
+                scale = 2.0
               }
-            },
-            {
-              filename = path .. "/graphics/entity/beam/beam-body-4.png",
-              flags = beam_non_light_flags,
-              line_length = 16,
-              width = 32,
-              height = 39,
-              frame_count = 16,
-              blend_mode = beam_blend_mode,
-              scale = 2.0,
-              hr_version = {
-                filename = path .. "/graphics/entity/beam/hr-beam-body-4.png",
-                flags = beam_non_light_flags,
-                line_length = 16,
-                width = 64,
-                height = 78,
-                frame_count = 16,
-                blend_mode = beam_blend_mode,
-                scale = 1.0
-              }
-            },
-            {
-              filename = path .. "/graphics/entity/beam/beam-body-5.png",
-              flags = beam_non_light_flags,
-              line_length = 16,
-              width = 32,
-              height = 39,
-              frame_count = 16,
-              blend_mode = beam_blend_mode,
-              scale = 2.0,
-              hr_version = {
-                filename = path .. "/graphics/entity/beam/hr-beam-body-5.png",
-                flags = beam_non_light_flags,
-                line_length = 16,
-                width = 64,
-                height = 78,
-                frame_count = 16,
-                blend_mode = beam_blend_mode,
-                scale = 1.0
-              }
-            },
-            {
-              filename = path .. "/graphics/entity/beam/beam-body-6.png",
-              flags = beam_non_light_flags,
-              line_length = 16,
-              width = 32,
-              height = 39,
-              frame_count = 16,
-              blend_mode = beam_blend_mode,
-              scale = 2.0,
-              hr_version = {
-                filename = path .. "/graphics/entity/beam/hr-beam-body-6.png",
-                flags = beam_non_light_flags,
-                line_length = 16,
-                width = 64,
-                height = 78,
-                frame_count = 16,
-                blend_mode = beam_blend_mode,
-                scale = 1.0
-              }
-            }
+            }            
           }
         }
       }
