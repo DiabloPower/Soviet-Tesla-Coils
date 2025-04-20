@@ -17,11 +17,12 @@ The **Soviet Tesla Coils** mod introduces the powerful Tesla Coils inspired by i
 Take a look at what the Soviet Tesla Coils bring to your gameplay:
 
 ### Tesla Coils in Action
-![Tesla Coils at Work](https://github.com/DiabloPower/Soviet-Tesla-Coils/blob/main/Soviet-Tesla-Coils_V2/graphics/screenshots/Screenshot_sap01.png)
+![Tesla Coils at Work](https://github.com/DiabloPower/Soviet-Tesla-Coils/blob/main/Soviet-Tesla-Coils_V2/graphics/screenshots/animation-sap.gif)
 *The electrifying Tesla Coils zapping away a threat!*
 
-![Tesla Coils at Work](https://github.com/DiabloPower/Soviet-Tesla-Coils/blob/main/Soviet-Tesla-Coils_V2/graphics/screenshots/Screenshot_sap02.png)
-*The electrifying Tesla Coils zapping away a threat!*
+### Tesla idle & Loading Animations
+![Turret idle Animation](https://github.com/DiabloPower/Soviet-Tesla-Coils/blob/main/Soviet-Tesla-Coils_V2/graphics/screenshots/animation-hr-tesla-turret-base.gif)
+![Turret loading Animation](https://github.com/DiabloPower/Soviet-Tesla-Coils/blob/main/Soviet-Tesla-Coils_V2/graphics/screenshots/animation-hr-tesla-turret-charge.gif)
 
 ### Advanced Technologies
 ![Tesla Coil Tech Tree](https://github.com/DiabloPower/Soviet-Tesla-Coils/blob/main/Soviet-Tesla-Coils_V2/graphics/screenshots/Screenshot_science.png)
