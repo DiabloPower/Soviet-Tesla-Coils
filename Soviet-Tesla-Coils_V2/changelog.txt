@@ -1,97 +1,74 @@
 ---------------------------------------------------------------------------------------------------
-Version: 2.0.3
+Version: 2.0.6
   Changes:
-    - Changed Cooldown from 240 to 340, to bring it in line with the Soviet-Tesla-Coils
-    - Changed Range from 38 to 40
-    - Changed Energy Consumtion from 800kJ to 1MJ
+    - Changed energy consumption from 800kJ to 1mJ
 ---------------------------------------------------------------------------------------------------
-Version: 2.0.2
+Version: 2.0.5
+  Changes:
+    - Changed Damage from 12 to 18 to better scale with Biter Evolution
+    - Changed Range from 38 to 40
+---------------------------------------------------------------------------------------------------
+Version: 2.0.4
+  Changes:
+    - Added turret animation.
+    - Added firing animation.
+    - Added cooldown animation.
+    - Added new beam animation (SD & HD).
+    - Added missing HD animations.
+---------------------------------------------------------------------------------------------------
+Version: 2.0.3
   Changes:
     - Added German translation.
 ---------------------------------------------------------------------------------------------------
+Version: 2.0.2
+  Changes:
+    - Added Chinese translation by Houraiji-Kyuusyou.
+---------------------------------------------------------------------------------------------------
 Version: 2.0.1
   Changes:
-    - some fixes to the Techtree (>Level 6 shoting speed upgrade did Damage instead of speed)
-    - a bit of Damage Output balancing
+    - Fixed issues in the tech tree (>Level 6 shooting speed upgrade caused damage instead of speed).
+    - Balanced damage output.
 ---------------------------------------------------------------------------------------------------
 Version: 2.0.0
   Changes:
     - Ported to Factorio 2.0 & SpaceAge.
 ---------------------------------------------------------------------------------------------------
-Version: 1.1.3
-  Bugfixes:
-    - Changed base sprite draw as glow to false. This was causing the obelisks to remain visible
-      behind aircraft.
----------------------------------------------------------------------------------------------------
-Version: 1.1.2
-  Changes:
-    - Should be compatible with hero turrets version >= 1.1.20 (when updated).
-  Bugfixes:
-    - Applied health from item to newly placed turret (no free repairs).
-    - Added range indicator when placing turrets.
----------------------------------------------------------------------------------------------------
-Version: 1.1.1
-  Changes:
-    - Preparations for hero turret compatibility (honk honk).
-    - Base obelisk item places turret, not EEI.
----------------------------------------------------------------------------------------------------
-Version: 1.1.0
-  Changes:
-    - Reduced cooldown of the obelisks from 105 to 20.
-    - Reduced damage modifier from 3 down to 1.5 due to increased fire rate.
-    - Slower charge-up animation.
-    - Removed redundant obelisks.
----------------------------------------------------------------------------------------------------
-Version: 1.0.9
-  Changes:
-    - Fixed issue where rotation would fully heal the obelisks.
----------------------------------------------------------------------------------------------------
-Version: 1.0.8
-  Changes:
-    - Fixed infinite research cost (was 15, now 1024).
-    - Removed black background from icons.
-    - Reduced base damage modifier by 50%.
-    - Added batteries to crafting recipe.
-    - Added speed research.
----------------------------------------------------------------------------------------------------
 Version: 1.0.7
   Changes:
-    - Fixed low-res crashing due to bad naming (changed swshbase to swbasesh.png).
+    - Tweaked animations. Sorry for any inconvenience.
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.6
   Changes:
-    - Co-creator of Factorio and Conquer kindly helped me out and made rotation possible. I am
-      extremely grateful. Thank you, randomflyingtaco.
-    - This means there is only one item to craft/place, and rotation is handled after placement.
-      One drawback: you cannot see distance until placed.
+    - Improved graphics. You can now change the color like stock turrets.
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.5
   Changes:
-    - Added 4 new animated obelisks based off the Tiberium Wars version plus new icons.
+    - Fixed infinite research amount (was 15, now 1024).
+    - Added descriptions to technology bonuses.
+    - Removed black background on icons.
+    - Added speed research.
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.4
   Changes:
-    - Added damage increase research.
+    - Made balancing changes (thanks to Alucard for playtesting).
+    - Reduced collision box/select box size.
+    - Changed recipe: 2x accumulators are now required to craft a Tesla.
+    - Speed is now upgraded with damage research as a secondary effect.
+    - Increased damage slightly (was 20, now 26.2; range remains 38).
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.3
   Changes:
-    - Fixed firing.ogg naming error.
-    - Tweaked obelisk sound and DPS (tested 5 obelisks vs. 5 laser turrets to make sure the research
-      is worth it).
+    - Updated descriptions for the technology tree.
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.2
   Changes:
-    - Fixed low-res sprite sizes causing game to crash.
+    - Fixed crash caused by technology obelisks of light dependency.
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.1
   Changes:
-    - Added new shooting sound. Please provide feedback on the change. Is it annoying? There are
-      3 .ogg files in the sound directory. If you know how, have a play and change the audio on the
-      beam.
-    - Updated the description for the research technology (missing on release).
-    - You can no longer make these from the start (something else I missed on release). This will
-      not affect any current saved game.
+    - Improved electric beam animation.
+    - Added research to increase beam damage.
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0
   Changes:
-    - None, initial release.
+    - Initial release.
