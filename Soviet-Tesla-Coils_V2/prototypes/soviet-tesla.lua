@@ -267,13 +267,13 @@ local sounds = require("__base__/prototypes/entity/sounds.lua")
       type = "beam",
       ammo_category = "tesla-electric",    
       cooldown = 340,
-      range = 38,
+      range = 40,
       source_direction_count = 64,
       source_offset = {0, 0 / 4},
       damage_modifier = 2.2,
       ammo_type =
       {
-        energy_consumption = "800kJ",
+        energy_consumption = "1mJ",
         action =
         {
           type = "direct",
