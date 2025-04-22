@@ -1,4 +1,8 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.0.6
+  Changes:
+    - Changed energy consumption from 800kJ to 1mJ
+---------------------------------------------------------------------------------------------------
 Version: 2.0.5
   Changes:
     - Changed Damage from 12 to 18 to better scale with Biter Evolution
