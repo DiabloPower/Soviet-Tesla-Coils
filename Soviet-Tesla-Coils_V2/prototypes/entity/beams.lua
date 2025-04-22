@@ -161,7 +161,7 @@ function make_beam(sound)
         {
           {
             type = "damage",
-            damage = { amount = 12, type = "electric"}
+            damage = { amount = 18, type = "electric"}
           }
         }
       }
