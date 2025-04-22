@@ -1,67 +1,70 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.0.5
+  Changes:
+    - Changed Damage from 12 to 18 to better scale with Biter Evolution
+    - Changed Range from 38 to 40
+---------------------------------------------------------------------------------------------------
 Version: 2.0.4
   Changes:
-    - added Turret animation
-    - added fireing animation
-    - added cooldown animation
-    - added new beam animation (SD & HD)
-    - added missing HD animations
+    - Added turret animation.
+    - Added firing animation.
+    - Added cooldown animation.
+    - Added new beam animation (SD & HD).
+    - Added missing HD animations.
 ---------------------------------------------------------------------------------------------------
 Version: 2.0.3
   Changes:
-    - german translation added
+    - Added German translation.
 ---------------------------------------------------------------------------------------------------
 Version: 2.0.2
   Changes:
-    - added Chinese translation by Houraiji-Kyuusyou
+    - Added Chinese translation by Houraiji-Kyuusyou.
 ---------------------------------------------------------------------------------------------------
 Version: 2.0.1
   Changes:
-    - some fixes to the Techtree (>Level 6 shoting speed upgrade did Damage instead of speed)
-    - a bit of Damage Output balancing
+    - Fixed issues in the tech tree (>Level 6 shooting speed upgrade caused damage instead of speed).
+    - Balanced damage output.
 ---------------------------------------------------------------------------------------------------
 Version: 2.0.0
   Changes:
-    - port to Factorio 2.0 & SpaceAge
+    - Ported to Factorio 2.0 & SpaceAge.
 ---------------------------------------------------------------------------------------------------
-Version 1.0.7
-      changes:
-             -Nothing new just and animation tweak sorry for any inconvenience.
+Version: 1.0.7
+  Changes:
+    - Tweaked animations. Sorry for any inconvenience.
 ---------------------------------------------------------------------------------------------------
-Version 1.0.6
-  changes:
-    -New Better Graphics, You can now change the color like stock turrets.
+Version: 1.0.6
+  Changes:
+    - Improved graphics. You can now change the color like stock turrets.
 ---------------------------------------------------------------------------------------------------
-Version 1.0.5
-  changes:
-    -Fixed Infinite research ammount was 15 now 1024.
-    -Descriptions added to technology bonusess.
-    -Removed black background on the icons.
-    -Added speed research.
+Version: 1.0.5
+  Changes:
+    - Fixed infinite research amount (was 15, now 1024).
+    - Added descriptions to technology bonuses.
+    - Removed black background on icons.
+    - Added speed research.
 ---------------------------------------------------------------------------------------------------
-Version 1.0.4
-  changes:
-    -Balancing changes have been made thank you Alucard for helping playtest.
-    -Collision box/select box reduced.
-    -Recipie change 2 x accumulators are now required to craft a Tesla.
-    -Speed is now also upgraded with the damage research as a secondary effect.
-    -Slight damage increase was 20 now 26.2 range still 38.
+Version: 1.0.4
+  Changes:
+    - Made balancing changes (thanks to Alucard for playtesting).
+    - Reduced collision box/select box size.
+    - Changed recipe: 2x accumulators are now required to craft a Tesla.
+    - Speed is now upgraded with damage research as a secondary effect.
+    - Increased damage slightly (was 20, now 26.2; range remains 38).
 ---------------------------------------------------------------------------------------------------
-Version 1.0.3
-  changes:
-    -Updated descriptions for technology tree.
-    -Enjoy!.
+Version: 1.0.3
+  Changes:
+    - Updated descriptions for the technology tree.
 ---------------------------------------------------------------------------------------------------
-Version 1.0.2
-  changes:
-    -Fixed crash caused by technology obelisks of light dependency accident.
-    -Enjoy!.
+Version: 1.0.2
+  Changes:
+    - Fixed crash caused by technology obelisks of light dependency.
 ---------------------------------------------------------------------------------------------------
-Version 1.0.1
-  changes:
-    -I have spent time working out the way the game animates the electric beam and produced one that is acceptable.
-    -The new beam has research able to increase its damage.
+Version: 1.0.1
+  Changes:
+    - Improved electric beam animation.
+    - Added research to increase beam damage.
 ---------------------------------------------------------------------------------------------------
-Version 1.0.0
-  changes:
-    -none, initial release.
+Version: 1.0.0
+  Changes:
+    - Initial release.
