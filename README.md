@@ -17,23 +17,23 @@ The **Soviet Tesla Coils** mod introduces the powerful Tesla Coils inspired by i
 Take a look at what the Soviet Tesla Coils bring to your gameplay:
 
 ### Tesla Coils in Action
-![Tesla Coils at Work](https://github.com/DiabloPower/Soviet-Tesla-Coils/blob/main/Soviet-Tesla-Coils_V2/graphics/screenshots/animation-sap.gif)
+![Tesla Coils at Work](https://github.com/DiabloPower/Soviet-Tesla-Coils/blob/main/screenshots/animation-sap.gif)
 *The electrifying Tesla Coils zapping away a threat!*
 
 ### Tesla idle & Loading Animations
-![Turret idle Animation](https://github.com/DiabloPower/Soviet-Tesla-Coils/blob/main/Soviet-Tesla-Coils_V2/graphics/screenshots/animation-hr-tesla-turret-base.gif)
-![Turret loading Animation](https://github.com/DiabloPower/Soviet-Tesla-Coils/blob/main/Soviet-Tesla-Coils_V2/graphics/screenshots/animation-hr-tesla-turret-charge.gif)
+![Turret idle Animation](https://github.com/DiabloPower/Soviet-Tesla-Coils/blob/main/screenshots/animation-hr-tesla-turret-base.gif)
+![Turret loading Animation](https://github.com/DiabloPower/Soviet-Tesla-Coils/blob/main/screenshots/animation-hr-tesla-turret-charge.gif)
 
 ### Advanced Technologies
-![Tesla Coil Tech Tree](https://github.com/DiabloPower/Soviet-Tesla-Coils/blob/main/Soviet-Tesla-Coils_V2/graphics/screenshots/Screenshot_science.png)
+![Tesla Coil Tech Tree](https://github.com/DiabloPower/Soviet-Tesla-Coils/blob/main/screenshots/Screenshot_science.png)
 *The research behind Soviet Tesla Coils—bringing destructive power to your defenses.*
 
 ### Aesthetic and Power Combined
-![Tesla Coil Designs](https://github.com/DiabloPower/Soviet-Tesla-Coils/blob/main/Soviet-Tesla-Coils_V2/graphics/screenshots/Screenshot_design.png)
+![Tesla Coil Designs](https://github.com/DiabloPower/Soviet-Tesla-Coils/blob/main/screenshots/Screenshot_design.png)
 *Beautiful designs for fearsome defensive turrets.*
 
 ### Stats That Matter
-![Tesla Coil Stats](https://github.com/DiabloPower/Soviet-Tesla-Coils/blob/main/Soviet-Tesla-Coils_V2/graphics/screenshots/Screenshot_stats.png)
+![Tesla Coil Stats](https://github.com/DiabloPower/Soviet-Tesla-Coils/blob/main/screenshots/Screenshot_stats.png)
 *Key stats after several research upgrades.*
 
 ## Credits
