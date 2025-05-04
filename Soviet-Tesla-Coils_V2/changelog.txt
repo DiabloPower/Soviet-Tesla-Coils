@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.0.7
+  Changes:
+    - code for low res Textures/Animations removed
+    - code for high res Textures/Animations optimized
+    - low res Textures/Animations removed
+---------------------------------------------------------------------------------------------------
 Version: 2.0.6
   Changes:
     - Changed energy consumption from 800kJ to 1mJ

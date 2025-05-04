@@ -5,126 +5,69 @@ local path = "__Soviet-Tesla-Coils_V2__"
 function make_tesla_beam(beam_table, blend_mode, beam_flags, beam_tint, light_tint)
     beam_table.start =
     {
-      filename = path .. "/graphics/entity/beam/tileable-beam-START.png",
+      filename = path .. "/graphics/entity/beam/hr-tileable-beam-START.png",
       flags = beam_flags or beam_non_light_flags,
       line_length = 4,
-      width = 52,
-      height = 40,
+      width = 94,
+      height = 66,
       frame_count = 16,
       direction_count = 1,
-      shift = {-0.03125, 0},
+      shift = {0.53125, 0},
       tint = beam_tint,
-      hr_version =
-      {
-        filename = path .. "/graphics/entity/beam/hr-tileable-beam-START.png",
-        flags = beam_flags or beam_non_light_flags,
-        line_length = 4,
-        width = 94,
-        height = 66,
-        frame_count = 16,
-        direction_count = 1,
-        shift = {0.53125, 0},
-        tint = beam_tint,
-        scale = 0.5
-      }
+      scale = 0.5
     }
 
     beam_table.ending =
     {
-      filename = path .. "/graphics/entity/beam/tileable-beam-END.png",
+      filename = path .. "/graphics/entity/beam/hr-tileable-beam-END.png",
       flags = beam_flags or beam_non_light_flags,
       line_length = 4,
-      width = 49,
-      height = 54,
+      width = 91,
+      height = 93,
       frame_count = 16,
       direction_count = 1,
-      shift = {-0.046875, 0},
+      shift = {-0.078125, -0.046875},
       tint = beam_tint,
-      hr_version =
-      {
-        filename = path .. "/graphics/entity/beam/hr-tileable-beam-END.png",
-        flags = beam_flags or beam_non_light_flags,
-        line_length = 4,
-        width = 91,
-        height = 93,
-        frame_count = 16,
-        direction_count = 1,
-        shift = {-0.078125, -0.046875},
-        tint = beam_tint,
-        scale = 0.5
-      }
+      scale = 0.5
     }
 
     beam_table.head =
     {
-      filename = path .. "/graphics/entity/beam/beam-head.png",
+      filename = path .. "/graphics/entity/beam/hr-beam-head.png",
       flags = beam_flags or beam_non_light_flags,
       line_length = 16,
-      width = 32,
-      height = 39,
+      width = 64,
+      height = 78,
       frame_count = 16,
       tint = beam_tint,
       blend_mode = blend_mode or beam_blend_mode,
-      hr_version =
-      {
-        filename = path .. "/graphics/entity/beam/hr-beam-head.png",
-        flags = beam_flags or beam_non_light_flags,
-        line_length = 16,
-        width = 64,
-        height = 78,
-        frame_count = 16,
-        tint = beam_tint,
-        blend_mode = blend_mode or beam_blend_mode,
-        scale = 0.5
-      }
+      scale = 0.5
     }
 
     beam_table.tail =
     {
-      filename = path .. "/graphics/entity/beam/beam-tail.png",
+      filename = path .. "/graphics/entity/beam/hr-beam-tail.png",
       flags = beam_flags or beam_non_light_flags,
       line_length = 16,
-      width = 32,
-      height = 39,
+      width = 64,
+      height = 78,
       frame_count = 16,
       tint = beam_tint,
       blend_mode = blend_mode or beam_blend_mode,
-      hr_version =
-      {
-        filename = path .. "/graphics/entity/beam/hr-beam-tail.png",
-        flags = beam_flags or beam_non_light_flags,
-        line_length = 16,
-        width = 64,
-        height = 78,
-        frame_count = 16,
-        tint = beam_tint,
-        blend_mode = blend_mode or beam_blend_mode,
-        scale = 0.5
-      }
+      scale = 0.5
     }
 
     beam_table.body =
     {
       {
-        filename = path .. "/graphics/entity/beam/beam-body.png",
-        flags = beam_flags or beam_non_light_flags,
-        width = 32,
-        height = 39,
+        filename = path .. "/graphics/entity/beam/hr-beam-body.png",
+        flags = beam_non_light_flags,
+        width = 64,
+        height = 78,
         line_length = 16,
         frame_count = 16,
-        tint = beam_tint,
-        scale = 2.0,
-        blend_mode = blend_mode or beam_blend_mode,
-        hr_version = {
-          filename = path .. "/graphics/entity/beam/hr-beam-body.png",
-          flags = beam_non_light_flags,
-          width = 64,
-          height = 78,
-          line_length = 16,
-          frame_count = 16,
-          blend_mode = beam_blend_mode,
-          scale = 2.0
-        }
+        blend_mode = beam_blend_mode,
+        scale = 0.5
       }
     }
 
@@ -175,25 +118,15 @@ function make_beam(sound)
           layers = 
           {
             {
-              filename = path .. "/graphics/entity/beam/tileable-beam-START.png",
+              filename = path .. "/graphics/entity/beam/hr-tileable-beam-START.png",
               flags = beam_non_light_flags,
               line_length = 4,
-              width = 52,
-              height = 40,
+              width = 94,
+              height = 66,
               frame_count = 16,
               direction_count = 1,
-              shift = {-0.03125, 0},
-              hr_version = {
-                filename = path .. "/graphics/entity/beam/hr-tileable-beam-START.png",
-                flags = beam_non_light_flags,
-                line_length = 4,
-                width = 94,
-                height = 66,
-                frame_count = 16,
-                direction_count = 1,
-                shift = {0.53125, 0},
-                scale = 0.5
-              }
+              shift = {0.53125, 0},
+              scale = 0.5
             }
           }
         },
@@ -202,25 +135,15 @@ function make_beam(sound)
           layers = 
           {
             {
-              filename = path .. "/graphics/entity/beam/tileable-beam-END.png",
+              filename = path .. "/graphics/entity/beam/hr-tileable-beam-END.png",
               flags = beam_non_light_flags,
               line_length = 4,
-              width = 49,
-              height = 54,
+              width = 91,
+              height = 93,
               frame_count = 16,
               direction_count = 1,
-              shift = {-0.046875, 0},
-              hr_version = {
-                filename = path .. "/graphics/entity/beam/hr-tileable-beam-END.png",
-                flags = beam_non_light_flags,
-                line_length = 4,
-                width = 91,
-                height = 93,
-                frame_count = 16,
-                direction_count = 1,
-                shift = {-0.078125, -0.046875},
-                scale = 0.5
-              }
+              shift = {-0.078125, -0.046875},
+              scale = 0.5
             }
           }
         },               
@@ -229,23 +152,14 @@ function make_beam(sound)
           layers = 
           {
             {
-              filename = path .. "/graphics/entity/beam/beam-head.png",
+              filename = path .. "/graphics/entity/beam/hr-beam-head.png",
               flags = beam_non_light_flags,
               line_length = 16,
-              width = 32,
-              height = 39,
+              width = 64,
+              height = 78,
               frame_count = 16,
               blend_mode = beam_blend_mode,
-              hr_version = {
-                filename = path .. "/graphics/entity/beam/hr-beam-head.png",
-                flags = beam_non_light_flags,
-                line_length = 16,
-                width = 64,
-                height = 78,
-                frame_count = 16,
-                blend_mode = beam_blend_mode,
-                scale = 0.5
-              }
+              scale = 0.5
             }
           }
         },  
@@ -254,23 +168,14 @@ function make_beam(sound)
           layers = 
           {
             {
-              filename = path .. "/graphics/entity/beam/beam-tail.png",
+              filename = path .. "/graphics/entity/beam/hr-beam-tail.png",
               flags = beam_non_light_flags,
               line_length = 16,
-              width = 32,
-              height = 39,
+              width = 64,
+              height = 78,
               frame_count = 16,
               blend_mode = beam_blend_mode,
-              hr_version = {
-                filename = path .. "/graphics/entity/beam/hr-beam-tail.png",
-                flags = beam_non_light_flags,
-                line_length = 16,
-                width = 64,
-                height = 78,
-                frame_count = 16,
-                blend_mode = beam_blend_mode,
-                scale = 0.5
-              }
+              scale = 0.5
             }
           }
         },
@@ -279,24 +184,14 @@ function make_beam(sound)
           layers = 
           {
             {
-              filename = path .. "/graphics/entity/beam/beam-body.png",
+              filename = path .. "/graphics/entity/beam/hr-beam-body.png",
               flags = beam_non_light_flags,
-              width = 32,
-              height = 39,
+              width = 64,
+              height = 78,
               line_length = 16,
               frame_count = 16,
               blend_mode = beam_blend_mode,
-              scale = 2.0,
-              hr_version = {
-                filename = path .. "/graphics/entity/beam/hr-beam-body.png",
-                flags = beam_non_light_flags,
-                width = 64,
-                height = 78,
-                line_length = 16,
-                frame_count = 16,
-                blend_mode = beam_blend_mode,
-                scale = 2.0
-              }
+              scale = 0.5
             }            
           }
         }

@@ -5,43 +5,29 @@ local sounds = require("__base__/prototypes/entity/sounds.lua")
   function soviet_tesla_extension(inputs)
     return
     {
-      filename = path .. "/graphics/entity/soviet-tesla/lr-tesla-charge.png",
+      filename = path .. "/graphics/entity/soviet-tesla/hr-tesla-charge.png",
       priority = "high",
-      width = 111,
-      height= 181,
+      width = 222,
+      height= 362,      
       axially_symmetrical = false,
       direction_count = 1,
       frame_count = inputs.frame_count or 22,
       line_length = inputs.line_length or 11,
       animation_speed = 1 / 25,
-      run_mode = inputs.run_mode or "forward",      
+      run_mode = inputs.run_mode or "forward",        
       shift = util.by_pixel(0, 0),
-      hr_version =
-      {
-        filename = path .. "/graphics/entity/soviet-tesla/hr-tesla-charge.png",
-        priority = "high",
-        width = 222,
-        height= 362,      
-        axially_symmetrical = false,
-        direction_count = 1,
-        frame_count = inputs.frame_count or 22,
-        line_length = inputs.line_length or 11,
-        animation_speed = 1 / 25,
-        run_mode = inputs.run_mode or "forward",        
-        shift = util.by_pixel(0, 0),
-        scale = 0.5
-      }
+      scale = 0.5
     }
   end
 
   function soviet_tesla_extension_mask(inputs)
     return
     {
-      filename = path .. "/graphics/entity/soviet-tesla/lr-soviet-tesla-mask.png",
+      filename = path .. "/graphics/entity/soviet-tesla/hr-soviet-tesla-mask.png",
       priority = "high",
       flags = { "mask" },
-      width = 111,
-      height = 181,
+      width = 222,
+      height = 362,
       frame_count = inputs.frame_count or 1,
       line_length = inputs.line_length or 1,
       repeat_count = inputs.repeat_count or 22,
@@ -50,139 +36,73 @@ local sounds = require("__base__/prototypes/entity/sounds.lua")
       apply_runtime_tint = true,
       direction_count = 1,
       shift = util.by_pixel(0, 0),
-      hr_version =
-      {
-        filename = path .. "/graphics/entity/soviet-tesla/hr-soviet-tesla-mask.png",
-        priority = "high",
-        flags = { "mask" },
-        width = 222,
-        height = 362,
-        frame_count = inputs.frame_count or 1,
-        line_length = inputs.line_length or 1,
-        repeat_count = inputs.repeat_count or 22,
-        run_mode = inputs.run_mode or "forward",
-        axially_symmetrical = false,
-        apply_runtime_tint = true,
-        direction_count = 1,
-        shift = util.by_pixel(0, 0),
-        scale = 0.5
-      }
+      scale = 0.5
     }
   end
 
   function soviet_tesla_static(inputs)
     return
     {
-      filename = path .. "/graphics/entity/soviet-tesla/lr-soviet-tesla.png",
+      filename = path .. "/graphics/entity/soviet-tesla/hr-soviet-tesla.png",
       priority = "high",
-      width = 111,
-      height= 181,
+      width = 222,
+      height= 362,      
       axially_symmetrical = false,
       direction_count = 1,
       frame_count = 1,
       line_length = 1,
       repeat_count = 32,
       animation_speed = 1 / 4,
-      continuous_animation = true,
+      continuous_animation = true,                
       shift = util.by_pixel(0, 0),
-      hr_version =
-      {
-        filename = path .. "/graphics/entity/soviet-tesla/hr-soviet-tesla.png",
-        priority = "high",
-        width = 222,
-        height= 362,      
-        axially_symmetrical = false,
-        direction_count = 1,
-        frame_count = 1,
-        line_length = 1,
-        repeat_count = 32,
-        animation_speed = 1 / 4,
-        continuous_animation = true,                
-        shift = util.by_pixel(0, 0),
-        scale = 0.5
-      }
+      scale = 0.5
     }
   end
   
   function soviet_tesla_extension_shadow(inputs)
     return
     {
-      filename = path .. "/graphics/entity/soviet-tesla/lr-tesla-shadow.png",
-      width = 222,
-      height= 150,
+      filename = path .. "/graphics/entity/soviet-tesla/hr-tesla-shadow.png",
+      width = 444,
+      height= 300,
       frame_count = inputs.frame_count,
       line_length = inputs.line_length,
-      repeat_count = inputs.repeat_count,       
+      repeat_count = inputs.repeat_count,        
       axially_symmetrical = false,
       direction_count = 1,
       draw_as_shadow = true,
       shift = util.by_pixel(78, 40),
-      hr_version =
-      {
-        filename = path .. "/graphics/entity/soviet-tesla/hr-tesla-shadow.png",
-        width = 444,
-        height= 300,
-        frame_count = inputs.frame_count,
-        line_length = inputs.line_length,
-        repeat_count = inputs.repeat_count,        
-        axially_symmetrical = false,
-        direction_count = 1,
-        draw_as_shadow = true,
-        shift = util.by_pixel(78, 40),
-        scale = 0.5
-      }
+      scale = 0.5
     }
   end
   
   function soviet_tesla_shooting()
     return
     {
-      filename = path .. "/graphics/entity/soviet-tesla/lr-soviet-teslashoot.png",
+      filename = path .. "/graphics/entity/soviet-tesla/hr-soviet-teslashoot.png",
       priority = "high",
-      width = 111,
-      height= 181,
+      width = 222,
+      height= 362,
       frame_count = 22,
       line_length = 11,
       direction_count = 1,
-      shift = util.by_pixel(0, 0),
-      hr_version =
-      {
-        filename = path .. "/graphics/entity/soviet-tesla/hr-soviet-teslashoot.png",
-        priority = "high",
-        width = 222,
-        height= 362,
-        frame_count = 22,
-        line_length = 11,
-        direction_count = 1,
-        shift = util.by_pixel(0, 0),      
-        scale = 0.5
-      }
+      shift = util.by_pixel(0, 0),      
+      scale = 0.5
     }
   end
   
   function soviet_tesla_shooting_glow()
     return
     {
-      filename = path .. "/graphics/entity/soviet-tesla/lr-soviet-teslastatic.png",
+      filename = path .. "/graphics/entity/soviet-tesla/hr-soviet-teslastatic.png",
       priority = "high",
-      width = 111,
-      height= 181,
+      width = 222,
+      height= 362,
       frame_count = 32,
       line_length = 8,
       direction_count = 1,
-      shift = util.by_pixel(0, 0),
-      hr_version =
-      {
-        filename = path .. "/graphics/entity/soviet-tesla/hr-soviet-teslastatic.png",
-        priority = "high",
-        width = 222,
-        height= 362,
-        frame_count = 32,
-        line_length = 8,
-        direction_count = 1,
-        shift = util.by_pixel(0, 0),      
-        scale = 0.5
-      }
+      shift = util.by_pixel(0, 0),      
+      scale = 0.5
     }
   end
 
@@ -298,18 +218,6 @@ local sounds = require("__base__/prototypes/entity/sounds.lua")
           layers =
           {
             {
-              filename = path .. "/graphics/entity/soviet-tesla/lr-soviet-teslabase.png",
-              priority = "high",
-              width = 111,
-              height= 181,
-              frame_count = 32,
-              animation_speed = 1 / 4,
-              line_length = 8,
-              repeat_count = 1,
-              direction_count = 1,
-              shift = util.by_pixel(0, 0),          
-              hr_version =
-              {
               filename = path .. "/graphics/entity/soviet-tesla/hr-soviet-teslabase.png",
               priority = "high",
               width = 222,
@@ -321,22 +229,8 @@ local sounds = require("__base__/prototypes/entity/sounds.lua")
               direction_count = 1,
               shift = util.by_pixel(0, 0),          
               scale = 0.5
-              }
             },
             {
-              filename = path .. "/graphics/entity/soviet-tesla/lr-soviet-tesla-mask.png",
-              flags = { "mask" },
-              priority = "high",
-              width = 111,
-              height= 181,
-              frame_count = 1,
-              animation_speed = 1 / 4,
-              line_length = 1,
-              repeat_count = 32,
-              direction_count = 1,
-              shift = util.by_pixel(0, 0),          
-              hr_version =
-              {
               filename = path .. "/graphics/entity/soviet-tesla/hr-soviet-tesla-mask.png",
               flags = { "mask" },
               priority = "high",
@@ -349,35 +243,20 @@ local sounds = require("__base__/prototypes/entity/sounds.lua")
               direction_count = 1,
               shift = util.by_pixel(0, 0),          
               scale = 0.5
-              }
             },
             {
-              filename = path .. "/graphics/entity/soviet-tesla/lr-tesla-shadow.png",
-              width = 222,
-              height= 150,
+              filename = path .. "/graphics/entity/soviet-tesla/hr-tesla-shadow.png",
+              width = 444,
+              height= 300,
               frame_count = 1,
               animation_speed = 1 / 4,
               line_length = 1,
-              repeat_count = 32,
+              repeat_count = 32,     
               axially_symmetrical = false,
               direction_count = 1,
               draw_as_shadow = true,
               shift = util.by_pixel(78, 40),
-              hr_version =
-              {
-                filename = path .. "/graphics/entity/soviet-tesla/hr-tesla-shadow.png",
-                width = 444,
-                height= 300,
-                frame_count = 1,
-                animation_speed = 1 / 4,
-                line_length = 1,
-                repeat_count = 32,     
-                axially_symmetrical = false,
-                direction_count = 1,
-                draw_as_shadow = true,
-                shift = util.by_pixel(78, 40),
-                scale = 0.5
-              }
+              scale = 0.5
             },
           }
         }
